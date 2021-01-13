@@ -22,13 +22,15 @@ body {
   margin: 0 auto;
 }
 
-#sniper {height: 400px; width: 600px; 
+#sniper {height: 400px; width: 600px; border: solid black;
 }
 
-#magazine {height: 400px; width: 600px;
+#magazine {height: 400px; width: 600px; border: solid black;
 }
-#Iraq {height: 400; width: 600px;
+
+#Iraq {height: 400; width: 600px; border: solid black;
 }
+
 
 .center {
   display: block;
