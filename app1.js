@@ -48,5 +48,6 @@ if (raceCar.toUpperCase() =='YES')
   alert('Yes!!!  I have been building race cars for over a decade')
 }
 else
-{alert('I LOVE car racing')
+{
+  alert('I LOVE car racing')
 }
