@@ -1,35 +1,17 @@
 const favBands = ["korn", "rammstein", "tool", "mudvayne", "primus", "jinjer"]
 
 var arrayOfAnswers =[];
-var answer = prompt('Can you name some of my favorite bands?');
-let numberOfGuesses = 6
-let newAnswer= answer.toLowerCase();
-  for (let i = 0; i < favBands.length; i++) {
-    if(favBands[i] === newAnswer){
-   alert ('That\'s right!');
-    }
-    else 
-   alert ('Nein!  My favorite bands are Avenged Sevenfold, Rammstein, Tool, Mudvayne, Primus, and Jinjer');
+
+let numberOfGuesses = 6      //Bucket example
+for (let i = 0; i < numberOfGuesses; i++) {
+  var answer = prompt('Can you name some of my favorite bands?');
+  let newAnswer= answer.toLowerCase();
+  if (favBands.includes(newAnswer)){
+    alert('That\'s right!');
+  }
+ 
 }
-console.log(newAnswer);
 
+alert('Good work!  My favorite bands are Avenged Sevenfold, Rammstein, Tool, Mudvayne, Primus, and Jinjer');
 
-// const favBands = ["avenged", "rammstein", "tool", "mudvayne", "primus", "jinjer"]
-
-// var answer = prompt('Can you name one of my favorite bands?');
-// let newAnswer= answer.toLowerCase();
-//   for (let i = 0; i < favBands.length; i++) {
-//     if(newAnswer === favBands[i]){
-//    alert ('That\'s right! My favorite bands are Avenged Sevenfold, Rammstein, Tool, Mudvayne, Primus, and Jinjer');
-//     }
-//     else 
-//    alert ('Nein!  My favorite bands are Avenged Sevenfold, Rammstein, Tool, Mudvayne, Primus, and Jinjer');
-//    break;
-// }
-// console.log(newAnswer);
-
-
-
-
-
-
+//console.log(pets.includes('cat')); <---Example on how to check if a value is contained within my array

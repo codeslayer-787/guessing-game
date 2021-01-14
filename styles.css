@@ -1,15 +1,21 @@
 body {
   background-color: dimgray;
+  z-index: 1;
+  font-family: georgia, serif;
+  font-size: large;
 }
 
 .fixed-header, .fixed-footer {
   width: 100%;
   position: fixed;
   text-align: center;
+  font-family: garamond, serif;
+  font-size: larger;
   padding: 10px 0;
   left: 0px;
   right: 0px;
-  background-color: rgb(65, 64, 112)   
+  background-image: linear-gradient(blue, dimgray);
+  z-index: 10;   
 }
 .fixed-header{
   top: 0;
@@ -47,6 +53,7 @@ body{
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
+  margin-bottom: 50px;
 }
 
 .column1of2 {
@@ -63,7 +70,8 @@ body{
 }
 
 .column2of2 {
-  float: right;
+  position:relative;
+  left: 400px;
   width: 920px;
   margin: 20px;
 }
