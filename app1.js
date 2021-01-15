@@ -2,6 +2,7 @@
 var YES = true;
 var NO = false;
 
+function q1(){
 let whereFrom = prompt ('Am I from Puerto Rico?');
 if (whereFrom.toUpperCase() =='YES')
 {
@@ -10,7 +11,10 @@ if (whereFrom.toUpperCase() =='YES')
 else 
 {alert('Not so much')
 }
+}
+q1();
 
+function q2(){
 let faveGenre = prompt ('Is my favorite music genre Heavy Metal?')
 
 if (faveGenre.toUpperCase() =='YES')
@@ -20,7 +24,10 @@ if (faveGenre.toUpperCase() =='YES')
 else
 {alert('Hint, I like lots of noise')
 }
+}
+q2();
 
+function q3(){
 let workHistory = prompt ('Have I worked in the oil field?')
 
 if (workHistory.toUpperCase() =='YES')
@@ -30,7 +37,10 @@ if (workHistory.toUpperCase() =='YES')
 else
 {alert('Incorrect, I still kinda do')
 }
+}
+q3();
 
+function q4(){
 let faveInstrument = prompt ('My favorite musical instrument is the piano')
 
 if (faveInstrument.toUpperCase() =='YES')
@@ -40,7 +50,10 @@ if (faveInstrument.toUpperCase() =='YES')
 else
 {alert('My favorite instrument is the bass guitar')
 }
+}
+q4();
 
+function q5(){
 let raceCar = prompt ('Do I like fast cars?')
 
 if (raceCar.toUpperCase() =='YES')
@@ -51,3 +64,6 @@ else
 {
   alert('I LOVE car racing')
 }
+}
+q5();
+

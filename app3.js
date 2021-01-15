@@ -1,6 +1,8 @@
+
+function q6(){
 let correctAnswer = 3;
 
-function guessNumber(){
+
     let userAnswer = prompt ('Guess a Number 1 - 10!');
     let intAnswer = parseInt(userAnswer)
     /*while (userAnswer < 2 || userAnswer > 10){
@@ -25,4 +27,4 @@ function guessNumber(){
           }
     }
   }
-guessNumber();
+q6();
